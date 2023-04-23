@@ -1,4 +1,4 @@
-from selenium import webdriver
-przegladarka = webdriver.Chrome()
-przegladarka.get('http://wp.pl')
-przegladarka.maximize_window()
+from faker import Faker
+fake = Faker()
+# fake.name()
+print(fake.name())
